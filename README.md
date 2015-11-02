@@ -7,9 +7,6 @@ There are two objects to use, `Client` and `Report`.  `Client` is the generic in
 
 Omniture's API is closed, you have to be a paying customer in order to access the data.
 
-## installation
-    [sudo] npm install omniture
-
 ## initialization and authentication
 omniture requires you supply the `username`, `sharedSecret` and `environment` which you can access within the Company > Web Services section of the Admin Console.  The environment you'll use to connect to Omniture's API depends on which data center they're using to store your traffic data and will be one of:
 

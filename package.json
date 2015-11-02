@@ -21,13 +21,39 @@
     "test and target"
   ],
   "dependencies": {
-		"nodeunit": "latest",
-		"underscore" : "latest",
-		"xml2json" : "latest"
-	},
-  "bundledDependencies": [
+    "nodeunit": "latest",
+    "underscore": "latest",
+    "xml2json": "latest"
+  },
+  "gitHead": "e105a86744b95aaa0f9d524cace7a1ed4ea70d5b",
+  "bugs": {
+    "url": "https://github.com/YourDeveloperFriend/node-omniture/issues"
+  },
+  "homepage": "https://github.com/YourDeveloperFriend/node-omniture",
+  "bundleDependencies": [
     "nodeunit",
     "underscore",
     "xml2json"
-  ]
+  ],
+  "_id": "omniture@0.3.11",
+  "scripts": {},
+  "_shasum": "b3867c0a7352649a9042b1876f436b1edee39844",
+  "_from": "omniture@*",
+  "_npmVersion": "2.1.18",
+  "_nodeVersion": "0.11.12",
+  "_npmUser": {
+    "name": "yourdeveloperfriend",
+    "email": "yourdeveloperfriend@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "yourdeveloperfriend",
+      "email": "yourdeveloperfriend@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "b3867c0a7352649a9042b1876f436b1edee39844",
+    "tarball": "http://registry.npmjs.org/omniture/-/omniture-0.3.11.tgz"
+  },
+  "_resolved": "https://registry.npmjs.org/omniture/-/omniture-0.3.11.tgz"
 }

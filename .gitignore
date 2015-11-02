@@ -2,3 +2,5 @@ test/test-credentials.js
 /node_modules
 *.swp
 *.swo
+.DS_Store
+**/.DS_Store

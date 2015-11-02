@@ -1,59 +1,37 @@
 {
-  "name": "omniture",
-  "description": "Omniture API module",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/YourDeveloperFriend/node-omniture.git"
-  },
-  "version": "0.3.11",
-  "author": {
-    "name": "Nathan Tate",
-    "email": "yourdeveloperfriend@gmail.com",
-    "url": "http://github.com/YourDeveloperFriend"
-  },
-  "main": "./index",
-  "directories": {
-    "lib": "./lib"
-  },
-  "keywords": [
-    "omniture",
-    "site catalyst",
-    "test and target"
-  ],
-  "dependencies": {
-    "nodeunit": "latest",
-    "underscore": "latest",
-    "xml2json": "latest"
-  },
-  "gitHead": "e105a86744b95aaa0f9d524cace7a1ed4ea70d5b",
-  "bugs": {
-    "url": "https://github.com/YourDeveloperFriend/node-omniture/issues"
-  },
-  "homepage": "https://github.com/YourDeveloperFriend/node-omniture",
-  "bundleDependencies": [
-    "nodeunit",
-    "underscore",
-    "xml2json"
-  ],
-  "_id": "omniture@0.3.11",
-  "scripts": {},
-  "_shasum": "b3867c0a7352649a9042b1876f436b1edee39844",
-  "_from": "omniture@*",
-  "_npmVersion": "2.1.18",
-  "_nodeVersion": "0.11.12",
-  "_npmUser": {
-    "name": "yourdeveloperfriend",
-    "email": "yourdeveloperfriend@gmail.com"
-  },
-  "maintainers": [
-    {
-      "name": "yourdeveloperfriend",
-      "email": "yourdeveloperfriend@gmail.com"
-    }
-  ],
-  "dist": {
-    "shasum": "b3867c0a7352649a9042b1876f436b1edee39844",
-    "tarball": "http://registry.npmjs.org/omniture/-/omniture-0.3.11.tgz"
-  },
-  "_resolved": "https://registry.npmjs.org/omniture/-/omniture-0.3.11.tgz"
+    "name": "gannett-omniture",
+    "description": "Omniture API module",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GannettDigital/node-omniture.git"
+    },
+    "version": "1.0.0",
+    "author": {
+        "name": "Ryan Copley (Forked from: Nathan Tate)",
+        "email": "rcopley@gannett.com",
+        "url": "http://github.com/GannettDigital/"
+    },
+    "main": "./index",
+    "directories": {
+        "lib": "./lib"
+    },
+    "keywords": [
+        "omniture",
+        "site catalyst",
+        "test and target"
+    ],
+    "dependencies": {
+        "nodeunit": "0.9.0",
+        "underscore": "1.6.0",
+        "xml2json": "0.4.0"
+    },
+    "bugs": {
+        "url": "https://github.com/GannettDigital/node-omniture/issues"
+    },
+    "homepage": "https://github.com/GannettDigital/node-omniture",
+    "bundleDependencies": [
+        "nodeunit",
+        "underscore",
+        "xml2json"
+    ]
 }
